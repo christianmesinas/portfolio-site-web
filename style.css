@@ -6,16 +6,27 @@
 }
 
 /*common styling  */
-html,body{
+body {
   background-color:#333333;
+
+}
+
+* {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     color: white;
 }
-
+p{
+  top: 150px;
+  position: absolute;
+  width: 80%;
+  left: 10%;
+  right: 10%;
+}
 /* header styling */
 .container {
-  top: 200px;
+  /* top: 200px; media query grote schermen */
+  top: 70px;
   position: absolute;
   left: 50%;
   transform:translate(-50%,0);
@@ -31,8 +42,10 @@ html,body{
 
 .h1-text {
   text-align: center;
-  color: #fff;
-  font-size: 300%;
+  /* font-size: 300%; media query grote schermen */
+  /* font-size: 160%; media query tablet schermen*/
+  font-size: 165%;
+  text-decoration: underline;
   font-family: 'BLADRMF';
   font-weight: 400;
   margin: 0;
