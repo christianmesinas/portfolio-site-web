@@ -12,16 +12,57 @@ body {
 }
 
 * {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif;
     margin: 0;
     color: white;
 }
-p{
+h2{
+  color: #c54141;
+}
+.intro-text{
+  top: 130px;
+  position: absolute;
+  padding-left: 30%;
+  color: #dad7d9;
+  /* width: 70%;
+  left: 15%;
+  right: 15%; media query grote schermen*/
+}
+.intro-paragraph{
   top: 150px;
   position: absolute;
-  width: 80%;
-  left: 10%;
-  right: 10%;
+  padding-left: 10%;
+  color: #dad7d9;
+  /* width: 70%;
+  left: 15%;
+  right: 15%; media query grote schermen*/
+}
+.h2-text{
+  position: absolute;
+}
+/* button styling */
+#cv{
+margin-left: 30px;
+color: #dad7d9;
+font-size: 16px;
+background-color: #164240;
+box-shadow: 1px 1px 12px 0px #164C49;
+text-shadow: 1px 1px 20px #000000;
+border: solid #327976 3px;
+display: inline-block;
+cursor: pointer;
+}
+
+.paragraph{
+  padding-top: 30px;
+  text-align: center;
+  padding-right: 10%;
+  padding-left: 10%;
+  color: #dad7d9;
+}
+
+.fade-in{
+  opacity: 0;
 }
 /* header styling */
 .container {
@@ -39,7 +80,9 @@ p{
   filter: blur(3px);
  -webkit-filter: blur(3px);
 }
-
+.padding{
+  padding-top: 5px;
+}
 .h1-text {
   text-align: center;
   /* font-size: 300%; media query grote schermen */
