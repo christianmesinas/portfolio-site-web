@@ -19,8 +19,89 @@ body,header {
 h2{
   color: #fc124e;
   padding-left: 15px;
+}
+
+/* navigation styling */
+/* navigation mobile */
+nav {
+  position: sticky;
+  top: 0;
+}
+
+ul{
+  list-style-type: none;
+  text-decoration: none;
+  background-color:#02082a;
+}
+
+li{
+  margin-right: 8px;
+  float: left;
+  display: inline;
+  color:  #d9d9dd;
+  text-decoration: none;
+  list-style: none;
 
 }
+
+.navbar{
+  position:absolute;
+}
+#mainNavbar{
+  z-index: 1;
+  padding: 7px 1px 4px 1px;
+  height: 20px;
+  line-height: 100%;
+}
+
+.navbar-nav .nav-link {
+ font-style: italic;
+ text-decoration: none;
+ padding-right: 15px;
+}
+a{
+ font-weight: bold;
+ font-size: 16px;
+ }
+
+ 
+  #mainNavbar .nav-link, span:hover {
+    color:  #FC124E;
+    border-top: 2px solid #FC124E;
+
+  }
+
+.scrolled{
+  background: #02082a;
+  transition: background 1s;
+}
+/* backToTop styling */
+#back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 9999;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 30px;
+    background: #f5f5f5;
+    color: black;
+    font-weight: 800;
+    cursor: pointer;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+}
+#back-to-top:hover {
+    background: #e9ebec;
+}
+#back-to-top.show {
+    opacity: 1;
+}
+/* text header styling */
 .intro-text{
   letter-spacing: 3px;
   top: 130px;
@@ -79,10 +160,13 @@ h2{
   left: 15%;
   right: 15%; media query grote schermen*/
 }
+
 .h2-text{
   letter-spacing: 3px;
   position: absolute;
 }
+/* section projects styling gallery */
+
 .projects{
   margin-bottom: 75px;
 }
@@ -149,8 +233,7 @@ text-transform: uppercase;
 .bg-img{
   max-width: 100%;
   height: auto;
-  filter: blur(3px);
- -webkit-filter: blur(3px);
+  margin-top: -30px;
 }
 .padding{
   padding-top: 5px;

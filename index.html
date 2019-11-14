@@ -11,8 +11,22 @@
 </head>
 
 <body>
-  <header>
-    <img class="bg-img" src="images/suhyeon-choi-8f2zqLZd82o-unsplash.jpg" alt="city">
+  <!-- <a href="#" id="back-to-top" title="Back to top">↑</a> -->
+    <nav id="mainNavbar" class="navbar-default">
+        <ul class="navbar-nav">
+          <li class="nav-item ">
+            <a name="ABOUT" href="#ABOUT" class="nav-link"><span>ABOUT</span></a>
+          </li>
+          <li class="nav-item ">
+            <a name="PROJECTS" href="#PROJECTS" class="nav-link"><span>PROJECTS</span></a>
+          </li>
+          <li class="nav-item ">
+            <a name="CONTACT" href="#CONTACT" class="nav-link"><span>CONTACT</span></a>
+          </li>
+        </ul>
+    </nav>
+  <header class="bg-flow">
+    <img class="bg-img" src="images\placeholdercontact.jpg" alt="abstract">
       <div class="container">
         <h1 class="h1-text glitch" >Christian Mesinas</h1>
         <h1 class="h1-text glitch" >Christian Mesinas</h1>
@@ -21,11 +35,11 @@
     <p class="intro-text"> FRONT-END DEVELOPER</p>
   </header>
 <section>
-  <h2 class="h2-text fade-in">ABOUT</h2>
-  <p class="paragraph fade-in">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+  <h2 id="ABOUT" class="h2-text">ABOUT</h2>
+  <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 </section>
 <section class="projects ">
-  <h2 class="h2-text fade-in">PROJECTS</h2>
+  <h2 id="PROJECTS" class="h2-text">PROJECTS</h2>
   <div class="gallery fade-in">
     <img src="images\opticien.jpg" alt="opticien" width="600" height="400">
   </a>
@@ -41,23 +55,23 @@
   </a>
   <div class="desc">Add a description of the image here</div>
 </div>
-<button id="cv" type="submit" name="button" class="fade-in">
+<button id="cv" type="submit" name="button">
 download mijn CV
 </button>
 </section>
     <footer class="footer">
-      <h2 class="h2-text fade-in contact">CONTACT</h2>
+      <h2 id="CONTACT" class="h2-text contact">CONTACT</h2>
       <div class="contact-info">
         <div class="info">
           <img class="contact-img" src="images\placeholdercontact.jpg" alt="">
 
 
-      <div class="card">
+      <div class="card fade-in">
         <i class="card-icon far fa-envelope"></i>
         <p>email@domain.com</p>
       </div>
 
-      <div class="card">
+      <div class="card fade-in">
         <i class="card-icon fas fa-phone"></i>
         <p>+000000000000</p>
       </div>
@@ -68,7 +82,8 @@ download mijn CV
   </article>
 </footer>
 </body>
-<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.1.0.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script type="text/javascript" src='script.js'></script>
 
 </html>
