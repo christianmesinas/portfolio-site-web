@@ -245,8 +245,8 @@ text-transform: uppercase;
 
 /* footer styling */
 .footer{
-  clip-path: polygon(0 92%, 100% 83%, 100% 100%, 0% 100%);
-  color: rgb(149, 170, 150);
+  /* clip-path: polygon(0 92%, 100% 83%, 100% 100%, 0% 100%);
+  color: rgb(149, 170, 150); */
   height: 300px;
   width: 100%;
 }
