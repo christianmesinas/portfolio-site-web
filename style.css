@@ -58,38 +58,50 @@ a{
  }
 
 .nav-item span:hover {
-    color:  #FC124E;
     border-top: 2px solid #FC124E;
 
   }
 
+.active{
+        color: #FC124E;
+}
 .scrolled{
   background: #02082a;
   transition: background 1s;
 }
 
 /* backToTop styling */
+.fa-angle-up{
+  color:#fc124e;
+}
 #back-to-top {
-    position: fixed;
-    bottom: 40px;
-    right: 40px;
-    z-index: 9999;
-    width: 32px;
-    height: 32px;
-    text-align: center;
-    line-height: 30px;
-    background: #f5f5f5;
-    color: black;
-    font-weight: 800;
-    cursor: pointer;
-    border: 0;
-    border-radius: 2px;
-    text-decoration: none;
-    transition: opacity 0.2s ease-out;
-    opacity: 0;
+  padding: 5px;
+  margin-top: 45px;
+  margin-left: 23%;
+  font-size: 16px;
+  background-color: #121011;
+  box-shadow: 1px 1px 12px 0px #dc3d78;
+  display: block;
+  font-family: 'lato', sans-serif;
+  color: #dad7d9;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 9999;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  line-height: 30px;
+  font-weight: 800;
+  border-radius: 90px;
+  text-decoration: none;
+  transition: opacity 0.2s ease-out;
+  opacity: 0;
 }
 #back-to-top:hover {
-    background: #e9ebec;
+    background: #121011;
+    cursor: pointer;
+
 }
 #back-to-top.show {
     opacity: 1;
