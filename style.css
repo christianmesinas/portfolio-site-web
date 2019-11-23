@@ -20,7 +20,9 @@ h2{
   color: #fc124e;
   padding-left: 15px;
 }
-
+section{
+  padding-top: 50px;
+}
 /* navigation styling */
 /* navigation mobile */
 nav {
@@ -69,16 +71,22 @@ a{
   background: #02082a;
   transition: background 1s;
 }
+#ABOUT{
+  padding-top: 30px;
+}
 
+#PROJECTS{
+  padding-top: 30px;
+}
+
+#CONTACT{
+  padding-top: 30px;
+}
 /* backToTop styling */
 .fa-angle-up{
   color:#fc124e;
 }
 #back-to-top {
-  padding: 5px;
-  margin-top: 45px;
-  margin-left: 23%;
-  font-size: 16px;
   background-color: #121011;
   box-shadow: 1px 1px 12px 0px #dc3d78;
   display: block;
@@ -86,7 +94,7 @@ a{
   color: #dad7d9;
   position: fixed;
   bottom: 40px;
-  right: 40px;
+  right: 20px;
   z-index: 9999;
   width: 32px;
   height: 32px;
@@ -184,7 +192,7 @@ div.desc {
 }
 div.gallery img {
   margin-left: 5%;
-  margin-top: 50px;
+  margin-top: 60px;
   width: 90%;
   height: 180px;
   object-fit: cover;
@@ -214,8 +222,8 @@ text-transform: uppercase;
 
 .paragraph{
   margin-bottom: 25px;
-  padding-top: 30px;
-  text-align: center;
+  padding-top: 70px;
+  text-align: left;
   padding-right: 10%;
   padding-left: 10%;
   color: #dad7d9;
@@ -263,9 +271,6 @@ text-transform: uppercase;
   width: 100%;
 }
 
-footer{
-
-}
 
 /* contact info */
 .contact-info{
@@ -276,70 +281,37 @@ footer{
   justify-content: center;
 }
 .info{
-  margin-top:50px;
+  margin-top:80px;
 }
 .contact-img{
-  height: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  display: block;
   object-fit: cover;
 }
-
-.card{
-
-  width: calc(33% - 20px);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  cursor: pointer;
-}
-
-.card-icon{
-  font-size: 28px;
-  width: 60px;
-  height: 60px;
+.email{
+  padding-top: 30px;
+  display: block;
   text-align: center;
-  line-height: 60px ;
-  border-radius: 50%;
-  transition: 0.3s linear;
 }
-
-.card:hover .card-icon{
-  background: none;
-  color: #c54141;
-  transform: scale(1.6);
+.mobile{
+  padding-top: 30px;
+  display: block;
+  text-align: center;
+  padding-bottom: 50px;
 }
-
-.card p{
-  margin-top: 20px;
-  font-weight: 300;
-  letter-spacing: 2px;
-  max-height: 0;
-  opacity: 0;
-  transition: 0.3s linear;
-  font-family: 'lato', sans-serif;
-  color: #dad7d9;
+.mobile i{
+  margin-left: 10%;
+  float: left;
 }
-
-.card:hover p{
-  font-family: 'lato', sans-serif;
-  color: #dad7d9;
-  max-height: 40px;
-  opacity: 1;
+.email i{
+  margin-left: 10%;
+  float: left;
 }
-
-
-@media screen and (max-width:800px) {
-  .contact-info{
-    flex-direction: column;
-  }
-  .card{
-    width: 100%;
-    max-width: 300px;
-    margin: 10px 0;
-  }
+.mobile span{
+  padding-right: 80px;
 }
-
 
 
 /*second color glitch */
