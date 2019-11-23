@@ -117,7 +117,7 @@ a{
 /* text header styling */
 .intro-text{
   letter-spacing: 3px;
-  top: 130px;
+  top: 120px;
   position: absolute;
   padding-left: 13%;
   color: #d9d9dd;
@@ -491,4 +491,12 @@ text-transform: uppercase;
     transform: none;
     opacity: 0.25;
   }
+}
+@media (min-width: 424px)  {
+
+.intro-text{
+  padding-left: 8%;
+  margin: 11%;
+  width: 80%;
+}
 }
