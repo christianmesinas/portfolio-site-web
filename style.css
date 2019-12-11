@@ -24,7 +24,7 @@ h2{
   padding-left: 15px;
 }
 section{
-  padding-top: 50px;
+  padding-top: 20px;
 }
 /* navigation styling */
 /* navigation mobile */
@@ -70,7 +70,7 @@ a{
   }
 
 .active{
-        color: #FC124E;
+  color: #FC124E;
 }
 .scrolled{
   background: #2b0a27;
@@ -172,9 +172,7 @@ a{
   position: absolute;
   padding-left: 1%;
   color: #dad7d9;
-  /* width: 70%;
-  left: 15%;
-  right: 15%; media query grote schermen*/
+
 }
 
 .h2-text{
@@ -195,7 +193,7 @@ div.desc {
 }
 div.gallery img {
   margin-left: 10%;
-  margin-top: 60px;
+  margin-top: 80px;
   width: 80%;
   height: 180px;
   object-fit: cover;
@@ -222,7 +220,8 @@ text-transform: uppercase;
 }
 
 .paragraph{
-  margin-bottom: 25px;
+  line-height: 1.5;
+  padding-bottom: 75px;
   padding-top: 70px;
   text-align: left;
   padding-right: 10%;
@@ -511,6 +510,12 @@ text-transform: uppercase;
   margin: 11%;
   width: 80%;
   top: 150px;
+  }
+
+  /* gallery image display media query */
+  div.gallery img {
+
+    height: auto;
 
 }
 }
@@ -552,9 +557,8 @@ text-transform: uppercase;
     display: flex;
     margin-top: -155px;
     z-index: 1;
-    position: relative;
     justify-content: space-between;
-    padding: 10% 10% 0% 10%
+    padding: 10% 10% 0% 10%;
     }
 .tagged ul{
   padding: 0;
@@ -590,6 +594,7 @@ text-transform: uppercase;
   position: absolute;
   left: 50px;
 }
+
   }
   /* tablet view media query 770px */
 
