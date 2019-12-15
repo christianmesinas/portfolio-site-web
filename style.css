@@ -185,8 +185,7 @@ a{
   margin-bottom: 75px;
 }
 
-div.desc {
-  padding: 15px;
+div.caption {
   text-align: center;
   font-family: 'Lato', sans-serif;
   color: #dad7d9;
@@ -200,6 +199,9 @@ div.gallery img {
 }
 div.gallery img:hover {
 cursor: pointer;
+}
+.opacity-low{
+  display: none;
 }
 
 /* button styling */
@@ -573,10 +575,11 @@ text-transform: uppercase;
 .tag1, .tag2, .tag3{
   padding-top: 7px;
   padding-left:10px;
-  width:130px;
+  width:150px;
   height:120px;
   background-color: #02052185;
-  -webkit-backdrop-filter: blur(5px); /* Ch 23+, Saf 6.0+ */
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px); /* chrome safari */
   color: #fc124e;
   letter-spacing: 2px;
   font-family: 'Lato', sans-serif;
@@ -588,14 +591,92 @@ text-transform: uppercase;
   float: none;
   display: block;
 }
-
+.tagged ul li i{
+  padding-right: 8px;
+}
 .intro-text{
   width: auto;
   position: absolute;
   left: 50px;
 }
 
-  }
+.gallery-desktop {
+  margin-left: 10%;
+  display: inline;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.gallery-image img {
+  height: 250px;
+  width: 350px;
+  transform: scale(1.0);
+  transition: transform 0.4s ease;
+}
+
+.gallery{
+  box-sizing: content-box;
+  margin: 10px;
+  height: 250px;
+  width: 26%;
+  overflow: hidden;
+  display: inline-block;
+  color: #121011;
+  position: relative;
+  background-color: transparent;
+}
+
+.caption {
+  position: absolute;
+  bottom: 5px;
+  left: 20px;
+  opacity: 0.0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.transparent-box {
+  height: 180px;
+  width: 100%;
+  background-color:rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 70px;
+  left: 0;
+  transition: background-color 0.3s ease;
+}
+div.gallery img {
+  width: 80%;
+  height: 180px;
+  object-fit: cover;
+}
+.gallery:hover img {
+  transform: scale(1.1);
+}
+
+.gallery:hover .transparent-box {
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
+.gallery:hover .caption {
+  transform: translateY(-20px);
+  opacity: 1.0;
+}
+
+.gallery:hover {
+  cursor: pointer;
+}
+
+.caption > p:nth-child(2) {
+  font-size: 0.8em;
+}
+
+.opacity-low {
+  display: inline-block;
+  opacity: 0.5;
+}
+.fade-in{
+  opacity: 1;
+}
   /* tablet view media query 770px */
 
   @media (min-width: 770px)  {
