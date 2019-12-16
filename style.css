@@ -288,8 +288,7 @@ text-transform: uppercase;
 
 
 /* contact info */
-.far *.fas{
-
+.far{
   padding-right: 20px;
 }
 .container-info{
@@ -307,8 +306,9 @@ text-transform: uppercase;
 	position: relative;
 }
 .content p {
-	margin-top: 50px;
-	line-height: 2em;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    line-height: 2em;
 }
 .content h1:before {
 	content: "";
@@ -339,17 +339,19 @@ text-transform: uppercase;
 	-webkit-transform: rotateY(180deg);
 	transform: rotateY(180deg);
 }
+
+.back h1 {
+	margin: 0;
+}
 form {
 	text-align: left;
 }
 .back h1 {
 	margin: 0;
 }
-form label,
-form input {
+form label,{
 	display: block;
 }
-form input,
 form textarea {
 	background: transparent;
 	border: 0;
@@ -360,16 +362,6 @@ form textarea {
 }
 form label {
 	margin: 15px 0;
-}
-form input[type="submit"] {
-	display: block;
-	width: auto;
-	margin: 10px auto;
-	padding: 5px 10px;
-	border: 3px solid #555;
-	border-radius: 4px;
-	color: #fff;
-	cursor: pointer;
 }
 .contact-info-mobile{
   display: flex;
@@ -406,9 +398,6 @@ form input[type="submit"] {
 .email i{
   margin-left: 10%;
   float: left;
-}
-.mobile span{
-  padding-right: 30px;
 }
 
 /*second color glitch */
@@ -795,10 +784,10 @@ div.gallery img {
 	width: 100%;
 	height: 100%;
 	padding: 20px 50px;
-	color: #fff;
+	color: #d9d9dd;
 	transform-style: preserve-3d;
 	backface-visibility: hidden;
-	border-radius: 20px;
+	border-radius: 8px;
 }
 .contact-info-mobile{
   display: none;
@@ -818,13 +807,14 @@ div.gallery img {
   font-family: 'lato', sans-serif;
   color: #dad7d9;
   text-transform: uppercase;
-  margin-top: 145px;
+  margin-top: 200px;
+  margin-bottom: 400px;
 }
 .far {
   padding-right: 20px;
 }
 
-.fas{
+form p .fas{
   padding-right: 20px;
 }
   }
