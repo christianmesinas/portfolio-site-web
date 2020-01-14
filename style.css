@@ -7,7 +7,7 @@
 
 /*common styling  */
 body,header {
-  background-color:#121011;
+  background-color:#020202;
 }
 .main-container{
   margin:auto;
@@ -62,6 +62,7 @@ li{
 a{
  font-weight: bold;
  font-size: 16px;
+ text-decoration: none;
  }
 
 .nav-item span:hover {
