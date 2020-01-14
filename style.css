@@ -209,20 +209,16 @@ cursor: pointer;
 #cv{
 width: 80%;
 padding: 10px;
-margin-top: 45px;
+margin-top: 90px;
 margin-left: 10%;
 font-size: 16px;
 background-color: #121011;
 border: solid #595458 1px;
 display: inline-block;
 cursor: pointer;
-font-family: 'lato', sans-serif;
-color: #dad7d9;
 text-transform: uppercase;
 }
-#cv-desktop{
-  display: none;
-}
+
 
 .paragraph{
   line-height: 1.5;
@@ -375,7 +371,7 @@ form label {
   justify-content: center;
 }
 .info{
-  margin-top:80px;
+  margin-top:60px;
 }
 .contact-img{
   margin-left: auto;
@@ -799,10 +795,8 @@ div.gallery img {
 .contact-info-mobile{
   display: none;
 }
+
 #cv{
-  display: none;
-}
-#cv-desktop{
   width: 70%;
   padding: 15px;
   margin-left: 15%;
