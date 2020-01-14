@@ -219,6 +219,9 @@ cursor: pointer;
 text-transform: uppercase;
 }
 
+#download-image{
+  padding-right: 20px;
+}
 
 .paragraph{
   line-height: 1.5;
