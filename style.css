@@ -14,7 +14,7 @@ body,header {
   max-width: 1024px;
 }
 
-* {
+*{
     font-family: 'Lato', sans-serif;
     margin: 0;
     color: #d9d9dd;
@@ -40,7 +40,10 @@ li{
   color:  #d9d9dd;
   list-style: none;
 }
-
+a{
+  font-weight: normal;
+  font-family: 'Lato', sans-serif;
+}
 .navbar{
   position:absolute;
 }
@@ -123,16 +126,13 @@ a{
 /* text header styling */
 
 .intro-text{
+  text-align: center;
   letter-spacing: 3px;
   top: 200px;
   position: absolute;
-  padding-left: 13%;
   color: #d9d9dd;
-  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-     -moz-animation: fadein 2s; /* Firefox < 16 */
-      -ms-animation: fadein 2s; /* Internet Explorer */
-       -o-animation: fadein 2s; /* Opera < 12.1 */
-          animation: fadein 2s;
+  right: 0px;
+  left: 0px;
 }
 
 @keyframes fadein {
@@ -344,6 +344,7 @@ text-transform: uppercase;
 	margin: 0;
 }
 form {
+  padding-top: 40px;
 	text-align: left;
 }
 .back h1 {
@@ -582,7 +583,6 @@ form label {
 @media (min-width: 400px)  {
 
 .intro-text{
-  padding-left: 8%;
   margin: 11%;
   width: 80%;
   top: 150px;
@@ -671,7 +671,7 @@ form label {
 .intro-text{
   width: auto;
   position: absolute;
-  left: 50px;
+
 }
 
 .gallery-desktop {
@@ -757,9 +757,7 @@ div.gallery img {
   /* tablet view media query 770px */
 
   @media (min-width: 770px)  {
-    .intro-text{
-      left: 120px;
-}
+
 .tag1, .tag2, .tag3{
     padding-top: 20px;
     padding-left:30px;
@@ -838,8 +836,5 @@ form p .fas{
       font-size: 300%;
 
     }
-    .intro-text{
-      left: 180px;
-}
 
   }
